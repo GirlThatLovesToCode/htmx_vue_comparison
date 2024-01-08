@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <ul id="task_list">
+        {% for item in todo_items %}
+            <li>{{ item }}</li>
+        {% empty %}
+            <p>There are no TODOs</p>
+        {% endfor %}
+    </ul>
+
+    <form hx-post="{% url 'partial_add_todo' %}"
+          hx-target="#task_list"
+          hx-swap="beforeend"
+    >
+        {{ form }}
+        <button type="submit">
+            Add
+        </button>
+    </form>
+{% endblock %}
