@@ -2,9 +2,20 @@ Installation process:
 
 ### Django-htmx notes:
 
+Minus:
+1. Handling errors?
+2. Almost imposible to switch BE, since they are intertwined
+3. Doesn't handle the FE interactivity - you need a separate library for that (such as Alpine.js)
+
 ### Vue-DRF notes:
 
-you need to install cors in order to use it loccaly (https://dzone.com/articles/how-to-fix-django-cors-error)
+Minus:
+1. you need to install cors in order to use it loccaly (https://dzone.com/articles/how-to-fix-django-cors-error)
+2. Doesn't include
+
+Plus:
+1. Doesn't care which BE framework is used, since the Vue code is separated from BE code
+
 
 ### Comparison:
 
