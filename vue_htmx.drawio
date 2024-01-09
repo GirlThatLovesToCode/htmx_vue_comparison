@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T10:42:18.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3sG42hMBs80laqNQX1Nj" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T10:49:25.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="L69zbZvRJZ6DYEx8KUJu" version="21.1.8" type="github">
   <diagram name="Page-1" id="eoBJK1-RsFcs7KWgZKT3">
     <mxGraphModel dx="1292" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,35 @@
         <mxCell id="PKo1FXSqe1NEm25wgcsc-6" value="&lt;font color=&quot;#b89c49&quot; style=&quot;font-size: 15px;&quot;&gt;New item&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PKo1FXSqe1NEm25wgcsc-7" value="&lt;font color=&quot;#4c0099&quot; style=&quot;font-size: 15px;&quot;&gt;ListCreate endpoint&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="PKo1FXSqe1NEm25wgcsc-7" value="&lt;font color=&quot;#4c0099&quot; style=&quot;font-size: 15px;&quot;&gt;ListCreate API endpoint&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="510" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-3" value="&lt;font color=&quot;#4d9900&quot; style=&quot;font-size: 20px;&quot;&gt;DJANGO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-7" value="HTMX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=right;labelBackgroundColor=#;" edge="1" parent="1" source="derArGQCk53ZntSuCS74-4" target="derArGQCk53ZntSuCS74-6">
+          <mxGeometry x="0.3433" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-4" value="&lt;font color=&quot;#b89c49&quot; style=&quot;font-size: 15px;&quot;&gt;List of items&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-5" value="&lt;font color=&quot;#b89c49&quot; style=&quot;font-size: 15px;&quot;&gt;New item&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-6" value="&lt;font color=&quot;#4c0099&quot; style=&quot;font-size: 15px;&quot;&gt;List endpoint&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="430" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-10" value="&lt;font color=&quot;#4c0099&quot; style=&quot;font-size: 15px;&quot;&gt;Create endpoint&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="derArGQCk53ZntSuCS74-14" value="HTMX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=right;labelBackgroundColor=#;" edge="1" parent="1">
+          <mxGeometry x="0.3433" y="10" relative="1" as="geometry">
+            <mxPoint x="370" y="699.72" as="sourcePoint" />
+            <mxPoint x="430" y="699.72" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
